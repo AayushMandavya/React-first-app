@@ -4,20 +4,43 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Aayush Mandavya</h1>
+      <p>Mero naam aayush ho ani yo mero first react application ho. This is my bio!</p>
+
+      <table>
+        <tr>
+        <th>SN</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Phone No.</th>
+        </tr>
+
+        <tr>
+          <td>1</td>
+         <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+           <td>32132131231</td>
+  </tr>
+
+  <tr> <td>1</td>
+         <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+           <td>32132131231</td>
+  </tr>
+  <tr>
+          <td>1</td>
+         <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+           <td>32132131231</td>
+  </tr>
+  <tr>
+          <td>1</td>
+         <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+           <td>32132131231</td>
+  </tr>
+
+      </table>
     </div>
   );
 }
